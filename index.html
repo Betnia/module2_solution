@@ -5,13 +5,29 @@
  <meta name="viewport" content="width=device-width, initial-scale=1>
  <title>Our Menu</title>
 </head>
+ 
+                                
  <style>
+                             
+   #box {
+    background-color: gray;
+    padding:30px;
+    border:1px solid black;
+    margin:40px
+    width:300px                            
+    box-sizing: border-box 
+    }                            
+   #content {
+   background-color:black; 
+   font-family:roboto                            
    
-   *{
-   box-sizing: border-box
    }
    h1{
      margin-border:15px
+                                
+   div#container {
+     background-color:gray;
+     position:relative;                           
    }
    p{
      border:1px solid black;
@@ -20,8 +36,24 @@
      height:150px
        margin-right:auto
        margin-left:auto
-       font-family:roboto
        color:white
+                                
+    #p1{
+      background-color:Gray;
+      position:absolute  
+       top:65px
+       left:65px                       
+    #p2 {
+     background-color:Gray;
+      position:absolute  
+      top:65px
+       left:65px                            
+    #p3 {
+   background-color:Gray;
+      position:absolute 
+     top:65px
+       left:65px   
+                                
    }
    /*simple responsive framework*/
    .row{
@@ -46,7 +78,7 @@
    }
    
    
-   /*medium devices only*/
+   /*****medium devices only*/
      @media (min-width:768px) and (max-width:991px) {
      .col-md-1, .col-md-2, .col-md-3 {
      float:left;
@@ -83,7 +115,34 @@
   </head>
 <body>
   <h1>Our Menu</h1>
-  
+                                
+  <div id="container"   
+   <p id="p1">Chicken</p> 
+     <section>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae sunt igitur communia vobis cum antiquis, iis sic utamur quasi concessis; 
+      Sunt enim quasi prima elementa naturae, quibus ubertas orationis adhiberi vix potest, nec equidem eam cogito consectari. Id Sextilius       
+      il acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat. Unum est sine dolore esse, alterum cum voluptate.     
+      hoc facere longius. Duo Reges constructio interrete. Graecum enim hunc versum nostis omnes Suavis laborum est praeteritorum memoria.  
+      Nos commodius agimus. A mene tu? Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, 
+        </section>    
+                    
+   <p id="p2">Beef</p>   
+    <section>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae sunt igitur communia vobis cum antiquis, iis sic utamur quasi concessis; 
+      Sunt enim quasi prima elementa naturae, quibus ubertas orationis adhiberi vix potest, nec equidem eam cogito consectari. Id Sextilius       
+      il acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat. Unum est sine dolore esse, alterum cum voluptate.     
+      hoc facere longius. Duo Reges constructio interrete. Graecum enim hunc versum nostis omnes Suavis laborum est praeteritorum memoria.  
+      Nos commodius agimus. A mene tu? Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, 
+        </section>             
+   <p id="p3">Sushi</p>  
+        <section>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quae sunt igitur communia vobis cum antiquis, iis sic utamur quasi concessis; 
+      Sunt enim quasi prima elementa naturae, quibus ubertas orationis adhiberi vix potest, nec equidem eam cogito consectari. Id Sextilius       
+      il acciderat ei, quod nollet, nisi quod anulum, quo delectabatur, in mari abiecerat. Unum est sine dolore esse, alterum cum voluptate.     
+      hoc facere longius. Duo Reges constructio interrete. Graecum enim hunc versum nostis omnes Suavis laborum est praeteritorum memoria.  
+      Nos commodius agimus. A mene tu? Tantum dico, magis fuisse vestrum agere Epicuri diem natalem, 
+        </section>         
+   </div>   
+     
+    <div id="box">             
+   <div id="content"
   <div class="row">
     <div class="col-lg-3 col-md-6"><p>Chicken</p></div>
     <div class="col-lg-3 col-md-6"><p>Beef</p></div>
